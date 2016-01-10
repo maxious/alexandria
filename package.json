@@ -1,0 +1,17 @@
+{
+  "name": "alexandria",
+  "version": "1.0.0",
+  "description": "Alexandria - Basic Content Store API in node.js on postgres JSONB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Sadleir <maxious@lambdacomplex.org>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.17.1"
+  }
+}
