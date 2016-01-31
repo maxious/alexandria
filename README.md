@@ -2,14 +2,20 @@
 
 Why a content store? https://gdstechnology.blog.gov.uk/2014/08/27/taking-another-look-at-gov-uks-disaster-recovery/
 
-=== Running ===
+=== Installing ===
 npm install
 node db.js # to create/wipe database tables
+
+=== Running ===
 node app.js
 curl http://localhost:3068/content/path-on-gov-uk -X PUT \
     -H 'Content-type: application/json; charset=utf-8' \
     -d @example-input.json
     
+=== Testing ===
+npm install -g mocha
+mocha -R nyan
+
 === Features ===
 - [x] Put
 - [x] Get
